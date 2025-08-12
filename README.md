@@ -1,4 +1,4 @@
-# Spotify to YouTube Downloader
+# Localify - Spotify Liked Songs Downloader
 
 This tool allows you to export your **Spotify liked songs** into YouTube links and download them in MP3 format.\
 It automates the entire process in three stages:
