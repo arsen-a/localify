@@ -1,0 +1,13 @@
+yt-dlp \
+  --batch-file liked-yt-urls.txt \
+  -x \
+  --audio-format "mp3/wav" \
+  --audio-quality 0 \
+  --embed-metadata \
+  --retries 2 \
+  --concurrent-fragments 4 \
+  -P "$(pwd)/downloaded" \
+  -o "%(title)s.%(ext)s" \
+  --sleep-interval 3 \
+  --max-sleep-interval 8 \
+  --sleep-requests 0.5 \

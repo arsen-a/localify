@@ -1,0 +1,17 @@
+{
+  "name": "localify",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "scripts": {
+    "tracks:get-liked": "node ./get-liked-tracks.js",
+    "tracks:get-urls": "cypress run --spec cypress/e2e/url-retriever.cy.js --headless --browser firefox",
+    "tracks:download": "bash run-yt-dlp.bash"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "cypress": "^14.5.4"
+  }
+}
